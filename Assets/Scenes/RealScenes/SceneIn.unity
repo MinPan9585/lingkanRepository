@@ -671,6 +671,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 3490629316433767174, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490629316433767175, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3490629316433767193, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -714,6 +722,18 @@ PrefabInstance:
     - target: {fileID: 3490629316433767193, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490629316599604080, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490629316599604080, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490629316599604080, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4df8a4c47cc32440bf4109b2a70f283, type: 3}
