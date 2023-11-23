@@ -9854,7 +9854,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 5
+      scalar: 1
       minScalar: 3
       maxCurve:
         serializedVersion: 2
@@ -10433,7 +10433,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.09
+      value: 0.12
       mode: 0
       spread: 0
       speed:
@@ -12314,7 +12314,7 @@ ParticleSystem:
     magnitude:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.84
+      scalar: 0.47
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -12368,7 +12368,7 @@ ParticleSystem:
     inWorldSpace: 0
     multiplyDragByParticleSize: 1
     multiplyDragByParticleVelocity: 1
-    dampen: 0.55
+    dampen: 0.61
     drag:
       serializedVersion: 2
       minMaxState: 0
