@@ -7,6 +7,7 @@ public class RedRose : MonoBehaviour
     float redRoseTimer = 0f;
 
     public GameObject redParticles;
+    public GameObject greenLight;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class RedRose : MonoBehaviour
         if (redRoseTimer > 3f)
         {
             redParticles.SetActive(true);
+            greenLight.SetActive(true);
         }
     }
 }
