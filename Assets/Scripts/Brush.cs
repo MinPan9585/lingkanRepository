@@ -5,11 +5,17 @@ using UnityEngine;
 public class Brush : MonoBehaviour
 {
     public GameObject redParticlesOnBrush;
-    
+    public GameObject greenLightOnBrush;
 
     private void OnTriggerEnter(Collider other)
     {
-        redParticlesOnBrush.SetActive(true);
+        if (other.CompareTag("RedRose"))
+        {
+            redParticlesOnBrush.SetActive(true);
+            greenLightOnBrush.SetActive(true);
+        }
+        
+
 
     }
     // Start is called before the first frame update
