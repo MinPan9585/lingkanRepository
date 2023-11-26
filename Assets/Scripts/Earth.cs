@@ -14,7 +14,19 @@ public class Earth : MonoBehaviour
     {
         if (other.CompareTag("FinalRose"))
         {
+            Destroy(roseInHand);
+            roseInEarth.SetActive(true);
+            greenLightFX.SetActive(true);
 
+            StartCoroutine("FinalStep");
         }
+    }
+
+    IEnumerator FinalStep()
+    {
+        yield return new WaitForSeconds(10);
+        bigRose.SetActive(true);
+        roseInEarth.SetActive(false);
+        starFX.SetActive(true);
     }
 }

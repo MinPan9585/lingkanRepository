@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/RealScenes/SceneIn1125.unity
+    guid: 91e37ad98fcab70429dd30a16cb07b8c
+  - enabled: 1
     path: Assets/Scenes/RealScenes/SceneOut.unity
     guid: 91bb11d6a8de08b4d8d687d8d7cf85d7
-  - enabled: 1
-    path: Assets/Scenes/RealScenes/SceneIn.unity
-    guid: f3ed3cf21e8eca84781184927d62513c
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 99c9aeef8977b8b4d8a5bec16bee7c89, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a3e3c3866aa1ff04ebb7001a759ae4ca, type: 2}

@@ -404,6 +404,10 @@ PrefabInstance:
       value: roseUpHalf
       objectReference: {fileID: 0}
     - target: {fileID: 3476965630673636478, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476965630673636478, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
       propertyPath: m_TagString
       value: FinalRose
       objectReference: {fileID: 0}
@@ -417,11 +421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4254627852273260228, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54999995
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 4254627852273260228, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.54
+      value: 1.955
       objectReference: {fileID: 0}
     - target: {fileID: 4254627852273260228, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
       propertyPath: m_LocalRotation.w
@@ -450,6 +454,10 @@ PrefabInstance:
     - target: {fileID: 4254627852273260228, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254627852273260231, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a489f6811d145e43a50d689ba711c62, type: 3}
@@ -512,6 +520,10 @@ PrefabInstance:
     - target: {fileID: 2949177114513373735, guid: 40e8280fb8033d242bbc9a319cba7b48, type: 3}
       propertyPath: m_Name
       value: HolyLightSm
+      objectReference: {fileID: 0}
+    - target: {fileID: 2949177114513373735, guid: 40e8280fb8033d242bbc9a319cba7b48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40e8280fb8033d242bbc9a319cba7b48, type: 3}
@@ -625,6 +637,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2014436986238988161, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112752057414473111, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2405213443582438275, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -669,9 +689,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2470702989141844443, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352134484655587739, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4807309783113055832, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5372830648248288142, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
       propertyPath: m_Name
       value: StarPaBig1031
+      objectReference: {fileID: 0}
+    - target: {fileID: 5372830648248288142, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410918939271190901, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164980272144508846, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
+      propertyPath: playOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b7383cf552064640a927eb4f93c44ff, type: 3}
@@ -918,6 +962,10 @@ PrefabInstance:
     - target: {fileID: 389916552278389975, guid: 65e76a9dea4abea4e9d1b3caaa8a5bed, type: 3}
       propertyPath: m_Name
       value: RoseRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 389916552278389975, guid: 65e76a9dea4abea4e9d1b3caaa8a5bed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8946111802607698238, guid: 65e76a9dea4abea4e9d1b3caaa8a5bed, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -70480,7 +70528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &7560024471636081272
 GameObject:
   m_ObjectHideFlags: 0

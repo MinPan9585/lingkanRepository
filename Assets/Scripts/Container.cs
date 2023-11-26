@@ -13,7 +13,7 @@ public class Container : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("fruit"))
+        if (other.CompareTag("Fruit"))
         {
             fruit.SetActive(false);
             fruitInContainer.SetActive(true);

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class YellowRose : MonoBehaviour
 {
+    public GameObject redParticleOnR;
     public GameObject redParticlesOnY;
     public GameObject greenLightOnY;
 
@@ -30,8 +31,11 @@ public class YellowRose : MonoBehaviour
     IEnumerator FinishFirstStep()
     {
         yield return new WaitForSeconds(3);
-        
-        roseRed.SetActive(false);
+
+        redParticleOnR.SetActive(false);
+        redParticlesOnY.SetActive(false);
+
+        Destroy(roseRed);
         roseYellow.SetActive(false);
 
         starOne.SetActive(true);
